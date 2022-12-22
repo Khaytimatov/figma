@@ -1,0 +1,322 @@
+/* common */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+    row-gap: 30px;
+}
+
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.col-4{
+    width: 33.3333%;
+    padding: 0 15px;
+}
+
+.col-5{
+    width: 20%;
+    padding: 0 15px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+}
+
+/* common */
+
+
+/* header */
+header {
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+    padding: 30px 0 0 0;
+}
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav img:last-child {
+    width: 60px;
+}
+
+/* header */
+
+/* main */
+#main {
+    height: calc(100vh - 150px);
+    background-image: url('../images/main.png');
+    background-size: cover;
+}
+
+.main__container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__wrap {
+    color: #FFFFFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+
+h1 {
+    font-size: 64px;
+    letter-spacing: 0.02em;
+    line-height: 95px;
+    text-transform: uppercase;
+}
+
+
+
+/* main */
+
+
+
+/* age */
+#age {
+    margin: -150px 0 0 0;
+}
+
+.age__container {
+    padding: 57px 0;
+    background: #F7F7F7;
+}
+
+.age__box {
+    text-align: center;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.age__box p:nth-child(1) {
+    color: #F7654A;
+    font-size: 72px;
+}
+
+.age__box p:nth-child(2) {
+    font-size: 36px;
+    margin: 30px 0;
+}
+
+.age__box p:nth-child(3) {
+    text-transform: none;
+    font-size: 18px;
+    color: #999999;
+}
+
+
+/* age */
+
+
+/* big__projects */
+
+#big__projects{
+    background: #E5E5E5;
+    padding: 100px 0 60px 0;
+
+}
+.container h2{
+    margin: 0 0 60px 0;
+}
+
+.gazprom{
+    font-size: 24px;
+    line-height: 36px;
+    color: #404149;
+}
+
+.projects__box p:last-child{
+    font-size: 16px;
+    line-height: 22px;
+    color: #999999;
+    padding: 20px 0 0 0;
+    width: 85%;
+}
+
+.gazprom{
+    position: relative;
+}
+
+.gazprom:before{
+    content: '';
+    position: absolute;
+    height: 6px;
+    width: 55px;
+    background: #F7654A;
+    top: -25px;
+}
+
+.projects__box img {
+    padding: 0 0 45px 0;
+}
+/* big__projects */
+
+
+/* fb */
+
+#fb{
+    padding: 50px 0;
+    background: #F7654A;    
+
+}
+.fb__orange{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.text p {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.text span {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    color: #fff;
+}
+
+.fb__orange .request{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    background-color: #fff;
+    padding: 14px 30px;
+}
+
+.request span {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.05em;
+    color: #000;
+}
+
+/* fb */
+
+
+/* building */
+
+#building{
+    padding: 150px 0;
+}
+
+.building__box{
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    align-items: center;
+    background: #F7F7F7;
+    padding: 59px 0;
+}
+.building__box p {
+    width: 50%;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 31px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000;
+}
+
+/* building */
+
+/* sky */
+
+#sky{
+    display: flex;
+    flex-wrap: wrap;
+}
+#sky img {
+    width: 25%;
+}
+
+
+
+/* sky */
+
+
+/* a_o_q */
+
+#a_o_q{
+    padding: 150px 0;
+}
+.block{
+    display: flex;
+    flex-direction: column;
+    row-gap: 35px;
+}
+.block div {
+    display: flex;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.block h3 {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #F7654A;
+}
+
+.block p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #999;
+    width: 70%;
+}
+
+/* a_o_q */
+
+/* partners */
+
+#partners{
+    padding: 100px 0;
+    background: #404149;
+}
+#partners h2 {
+    color: #fff;
+    
+}
+/* partners */
